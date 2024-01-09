@@ -1,1 +1,42 @@
 /* write your carousel css in this file */
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imagecontainer{
+    position: absolute;
+    height: 70%;
+    width: 70%;
+}
+
+.titleBox{
+    background-color: #ffff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    opacity: 0.7;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
+.subtitleBox{
+    background-color: #ffff;
+    width: 80%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    opacity: 0.7;
+    margin-left: 12%;
+    margin-top: 40%;
+    font-weight: 700;
+}
